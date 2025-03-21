@@ -25,7 +25,7 @@ describe('TodoList', () => {
   })
 
   it('emits toggle-todo event when checkbox is clicked', async () => {
-    const todos = [{ id: 2, text: 'Test Todo', completed: false }]
+    const todos = [{ id: 1, text: 'Test Todo', completed: false }]
     const wrapper = mount(TodoList, {
       props: {
         todos,
