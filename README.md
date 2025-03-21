@@ -33,3 +33,15 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Run tests
+
+```sh
+npm run test
+```
+
+### Show tests coverage
+
+```sh
+npm run test:coverage
+```
